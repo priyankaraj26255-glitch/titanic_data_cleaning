@@ -1,0 +1,7 @@
+column,issue,action
+Age,177 missing (19.9%),Imputed: median of Title x Pclass group
+Cabin,687 missing (77.1%),Dropped column; added Has_Cabin flag
+Embarked,2 missing (0.2%),Imputed: mode (S)
+Age,outliers > upper IQR fence,Capped at upper fence
+Fare,116 outliers > upper IQR fence,Capped at upper fence
+Title,new feature,Extracted from Name; rare titles grouped
